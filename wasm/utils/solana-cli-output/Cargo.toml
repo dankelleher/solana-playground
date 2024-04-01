@@ -24,4 +24,4 @@ solana-clap-v3-utils-wasm = { path = "../solana-clap-v3-utils" }
 solana-cli-config-wasm = { path = "../solana-cli-config" }
 solana-client-wasm = { path = "../../solana-client" }
 solana-extra-wasm = { path = "../solana-extra" }
-solana-sdk = "*"
+solana-sdk = { git = "https://github.com/anza-xyz/agave.git", branch = "master" }

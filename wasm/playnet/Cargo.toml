@@ -22,7 +22,7 @@ serde_json = "*"
 solana-bpf-loader-program = { path = "../../../forks/solana/programs/bpf_loader" }
 solana-program-runtime = { path = "../../../forks/solana/program-runtime" }
 solana_rbpf = { path = "../../../forks/rbpf" }
-solana-sdk = { path = "../../../forks/solana/sdk" }
+solana-sdk = { git = "https://github.com/anza-xyz/agave.git", branch = "master" }
 wasm-bindgen = { version = "=0.2.86" }
 
 [dev-dependencies]

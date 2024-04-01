@@ -25,6 +25,6 @@ serde_derive = "*"
 serde_json = "*"
 solana-client-wasm = { path = "../solana-client" }
 solana-playground-utils-wasm = { path = "../utils/solana-playground-utils" }
-solana-sdk = "*"
+solana-sdk = { git = "https://github.com/anza-xyz/agave.git", branch = "master" }
 wasm-bindgen = "*"
 wasm-bindgen-futures = "*"

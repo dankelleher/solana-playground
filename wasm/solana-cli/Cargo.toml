@@ -29,9 +29,9 @@ solana-cli-output-wasm = { path = "../utils/solana-cli-output" }
 solana-client-wasm = { path = "../solana-client" }
 solana-extra-wasm = { path = "../utils/solana-extra" }
 solana-playground-utils-wasm = { path = "../utils/solana-playground-utils" }
-solana-remote-wallet = { version = "~1.18", default-features = false }
-solana-sdk = "*"
-solana-version = "~1.18"
+solana-remote-wallet = { git = "https://github.com/anza-xyz/agave.git", branch = "master", default-features = false }
+solana-sdk = { git = "https://github.com/anza-xyz/agave.git", branch = "master" }
+solana-version = { git = "https://github.com/anza-xyz/agave.git", branch = "master" }
 thiserror = "1.0.31"
 wasm-bindgen = "*"
 wasm-bindgen-futures = "*"

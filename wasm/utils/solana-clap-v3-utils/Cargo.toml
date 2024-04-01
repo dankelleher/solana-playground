@@ -13,8 +13,8 @@ keywords = ["solana", "playground", "wasm", "clap"]
 chrono = "0.4"
 clap = "*"
 rpassword = "6.0"
-solana-remote-wallet = { version = "*", default-features = false }
-solana-sdk = "*"
+solana-remote-wallet = { git = "https://github.com/anza-xyz/agave.git", branch = "master", default-features = false }
+solana-sdk = { git = "https://github.com/anza-xyz/agave.git", branch = "master" }
 thiserror = "1.0.31"
 tiny-bip39 = "0.8.2"
 uriparse = "0.6.4"

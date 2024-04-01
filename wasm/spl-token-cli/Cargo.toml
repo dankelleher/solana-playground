@@ -25,8 +25,8 @@ solana-cli-output-wasm = { path = "../utils/solana-cli-output" }
 solana-client-wasm = { path = "../solana-client" }
 solana-extra-wasm = { path = "../utils/solana-extra" }
 solana-playground-utils-wasm = { path = "../utils/solana-playground-utils" }
-solana-remote-wallet = { version = "*", default-features = false }
-solana-sdk = "*"
+solana-remote-wallet = { git = "https://github.com/anza-xyz/agave.git", branch = "master", default-features = false }
+solana-sdk = { git = "https://github.com/anza-xyz/agave.git", branch = "master" }
 strum = "0.24"
 strum_macros = "0.24"
 wasm-bindgen = "*"
